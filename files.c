@@ -6,7 +6,7 @@ int main()
 {
     
     FILE *s;
-    s = fopen("states.csv", "r");
+    s = fopen("homes200.csv", "r");
     if (!s)
     {
         printf("Can't read file");
@@ -19,11 +19,13 @@ int main()
     int area;
     int max = 0;
     int min = 999999999;
-    char maxstate[30];
-    char minstate[30];
+    //char maxstate[30];
+    //char minstate[30];
+    int listings = 0;
     
     while(fscanf(s,"%[^,],%[^,],%d,%d ",name,capitol,&population,&area) != EOF ){
-    
+        listings++;
+        
         //printf("%15s:(%2d)%s\n",channel,time, show);
         
         if(population > max){
