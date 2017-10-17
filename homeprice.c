@@ -62,7 +62,7 @@ int ParseFile(char* filename)
             min = price;
         }
         
-        
+        /*
         char* row;
         row = (char*) malloc (255);
         sprintf(row,"%30s: %d",address,sqft);
@@ -88,7 +88,7 @@ int ParseFile(char* filename)
         sprintf(addressOutput,"%s\n",address);
         
         appendFile(addressOutput , strlen(address), fname);
-        
+        */
         
     }
     

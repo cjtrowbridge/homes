@@ -78,7 +78,7 @@ int ParseFile(char* filename)
             appendFile(row , strlen(row), largeFile);
         }
         
-        
+        /*
         char* fname;
         fname = (char*) malloc (10);
         sprintf(fname,"%d%s",zip,".txt");
@@ -88,14 +88,14 @@ int ParseFile(char* filename)
         sprintf(addressOutput,"%s\n",address);
         
         appendFile(addressOutput , strlen(address), fname);
-        
+        */
         
     }
     
     int averagePrice = totalPrice / listings;
     
     fclose(s);
-    printf("%d %d %d\n",min,max,averagePrice);
+    //printf("%d %d %d\n",min,max,averagePrice);
     return 1;
 }
 
