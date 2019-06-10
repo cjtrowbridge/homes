@@ -1,5 +1,4 @@
-# CSCI-0046
-## Sierra College
+# Sierra College: CSCI-0046
 This C program rearranges some columns of text from a large CSV file and does some math.
 
 ## Lab: Homes
